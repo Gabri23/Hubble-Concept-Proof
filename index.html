@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
-<body onload="GetRandomImage()">
+<head>	
+	<link rel="stylesheet" type="text/css" href="css/welcome.css">
+	<meta charset="utf-8">
+    <title>Huli Vida</title>
+</head>
+<body>
 	<div class="main">
-		<div class="image">	
-			<img id="MainImage" class="image">
+		<div class="image" id="MainImage">	
+			<img :src="url"  class="image"> 
 		</div>
 		<div class="information">
 			<div class="information__logo">
@@ -20,11 +25,7 @@
 			
 		</div>
 	</div>	
+	<script src="js/vue.js"></script>
+	<script src="js/index.js"></script>
 </body>
-<head>
-	<script type="text/javascript" src="js/index.js"></script>		
-	<link rel="stylesheet" type="text/css" href="css/welcome.css">
-	<meta charset="utf-8">
-    <title>Huli Vida</title>
-</head>
 </html>
