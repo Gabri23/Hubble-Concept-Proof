@@ -5,27 +5,42 @@
 	<meta charset="utf-8">
     <title>Huli Vida</title>
 </head>
+
 <body>
 	<div class="main">
+
 		<div class="image image--default" id="MainImage">	
 			<img :src="url"  class="image image--default"> 
 		</div>
+
 		<div class="information">
+
 			<div class="information__logo">
 				<img id="Logo" src="images/huli.png" class="information__logo">
 			</div>
+
 			<h1 class="information__title information__title--login"> ¡Bienvenido a HuliVida, tu </br> expediente médico personal! </h1>
+
 			<button class='information__button information__button--login' onclick="location.href='https://app.hulivida.com/login'"><h1 class="information__button--text">INICIAR SESIÓN</h1></button>
+
 			<div class="information__divider"> </div>
+
 			<h1 class="information__title information__title--signup"> ¿Aún no tienes cuenta? </h1>
-			<button class='information__button information__button--signup' onclick="location.href='https://app.hulivida.com/login'"><h1 class="information__button--text">CREAR MI EXPEDIENTE GRATIS</h1></button> 
+
+			<button class='information__button information__button--signup' onclick="location.href='https://app.hulivida.com/login'"><h1 class="information__button--text">CREAR MI EXPEDIENTE GRATIS</h1></button>
+
 			<div class="information__hyperlink">
-				<p><a href="https://app.hulivida.com/onboarding/sign-up/terms" style="color:grey; text-decoration:none">Términos y condiciones   |  </a><a href="https://www.hulivida.com/politicas-de-privacidad" style="color:grey; text-decoration: none">Privacidad</a></p>
-			</div>
-			
+				<p>
+					<a href="https://app.hulivida.com/onboarding/sign-up/terms" style="color:grey; text-decoration:none">Términos y condiciones </a>
+					<a>  |  </a>
+					<a href="https://www.hulivida.com/politicas-de-privacidad" style="color:grey; text-decoration: none">Privacidad</a>
+				</p>
+			</div>	
 		</div>
-	</div>	
+	</div>
+
 	<script src="js/vue.js"></script>
 	<script src="js/index.js"></script>
+
 </body>
 </html>
