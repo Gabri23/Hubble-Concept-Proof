@@ -12,7 +12,6 @@
 .image {
   width: 912px;
   height: 768;
-  background-color: #ffffff;
   float: left;
 }
 
@@ -116,4 +115,12 @@ margin-top: 12px;
   margin-left:40px;
   margin-right:40px;
   margin-top:184px;
+}
+
+.image--default{
+  background-color: #ffffff;
+}
+
+.image--gradient{
+  background-image: linear-gradient(to left, #889af8, #1de9b6);
 }
